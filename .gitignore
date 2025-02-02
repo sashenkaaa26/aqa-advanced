@@ -1,0 +1,56 @@
+# Лог-файлы
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Папка с зависимостями
+node_modules/
+.pnpm-store/
+
+# Кэш npm и yarn
+.npm/
+.yarn/
+.yarn-cache/
+.yarn-integrity
+.pnp.*
+
+# Файлы сборки и временные файлы
+dist/
+build/
+.tmp/
+out/
+
+# Конфигурационные файлы IDE и редакторов
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Файлы окружения
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env.*.local
+
+# Файлы OS
+.DS_Store
+Thumbs.db
+
+# Логи процесса
+logs/
+*.log
+logs/*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Файлы тестирования
+coverage/
+jest/
