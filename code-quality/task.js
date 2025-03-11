@@ -1,1 +1,3 @@
-console.log('Code quality');
+let x = 5;
+const y = 10;
+console.log(x + y);

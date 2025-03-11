@@ -9,6 +9,8 @@ export default [
 		},
 		rules: {
 			'no-unused-vars': 'warn',
+			quotes: ['error', 'single'],
+			semi: ['error', 'always'],
 		},
 	},
 	pluginJs.configs.recommended,
