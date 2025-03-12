@@ -8,7 +8,6 @@ export default [
 			globals: globals.browser,
 		},
 		rules: {
-			'no-unused-vars': 'warn',
 			quotes: ['error', 'single'],
 			semi: ['error', 'always'],
 		},
