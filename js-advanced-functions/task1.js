@@ -1,16 +1,16 @@
 let handleNum = (num,evenCallback,oddCallback) => {
  if(num % 2 == 0){
-  evenCallback()
+  evenCallback();
  }else{
-  oddCallback()
+  oddCallback();
  }
-}
+};
 
 function handleEven(){
-   console.log('number is even')
+   console.log('number is even');
  }
  function handleOdd(){
-   console.log('number is odd') 
+   console.log('number is odd'); 
  }
 
-handleNum(5,handleEven,handleOdd)
+handleNum(5,handleEven,handleOdd);

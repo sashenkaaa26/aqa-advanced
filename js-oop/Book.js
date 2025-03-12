@@ -8,8 +8,8 @@ export class Book{
     return this._bookName;
   }
   set bookName(value) {
-    if (typeof value !== "string" || value.trim() === "") {
-      throw new Error("Назва книги повинна бути рядком.");
+    if (typeof value !== 'string' || value.trim() === '') {
+      throw new Error('Назва книги повинна бути рядком.');
     }
     this._bookName = value;
   }
@@ -18,8 +18,8 @@ export class Book{
     return this._author;
   }
   set author(value) {
-    if (typeof value !== "string" || value.trim() === "") {
-      throw new Error("Автор повинен бути рядком.");
+    if (typeof value !== 'string' || value.trim() === '') {
+      throw new Error('Автор повинен бути рядком.');
     }
     this._author = value;
   }
@@ -29,13 +29,13 @@ export class Book{
   }
   set year(value) {
     if (!Number.isInteger(value) || value < 0) {
-      throw new Error("Рік має бути додатним цілим числом.");
+      throw new Error('Рік має бути додатним цілим числом.');
     }
     this._year = value;
   }
 
   printInfo(){
-    console.log(`Name: ${this.bookName}, Author: ${this.author} , Year: ${this.year}.`)
+    console.log(`Name: ${this.bookName}, Author: ${this.author} , Year: ${this.year}.`);
   }
   static getOldestBook(books) {
     return books.reduce((oldest, book) => (book.year < oldest.year ? book : oldest), books[0]);

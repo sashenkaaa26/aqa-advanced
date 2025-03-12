@@ -5,4 +5,4 @@ function sayText(text, milliseconds) {
   }, milliseconds);
 }
 
-sayText("Hello, friends", 2000); 
+sayText('Hello, friends', 2000); 

@@ -5,11 +5,11 @@ let zeroCount = 0;
 
 for(let i = 0; i < numbers.length; i++){
   if(numbers[i] > 0){
-    positiveCount+=1
+    positiveCount+=1;
   }else if( numbers[i] < 0){
-    negativeCount+=1
+    negativeCount+=1;
   }else if( numbers[i] == 0){
-    zeroCount +=1
+    zeroCount +=1;
   }
 
 }
@@ -25,6 +25,6 @@ for(let i = 0; i < numbers.length; i++){
 //       zeroCount++;
 //   }
 // }
-console.log("Кількість позитивних чисел:", positiveCount);
-console.log("Кількість негативних чисел:", negativeCount);
-console.log("Кількість нульових чисел:", zeroCount);
+console.log('Кількість позитивних чисел:', positiveCount);
+console.log('Кількість негативних чисел:', negativeCount);
+console.log('Кількість нульових чисел:', zeroCount);

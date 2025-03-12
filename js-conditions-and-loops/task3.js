@@ -15,5 +15,5 @@ let count = 1;
 while (count <= 10){
   let multiplicationTable = num + ' x ' + count + ' = ' + count*num;
   console.log(multiplicationTable);
-  count++ 
+  count++; 
 }

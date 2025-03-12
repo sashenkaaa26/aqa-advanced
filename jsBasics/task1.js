@@ -3,7 +3,7 @@
 let num = 1;
 console.log(num);
 
-let string = "TestString"
+let string = 'TestString';
 console.log(string);
 
 let booleanValue = true;
