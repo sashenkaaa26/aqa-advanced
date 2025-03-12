@@ -55,8 +55,8 @@ describe('API Tests', () => {
 
  test('PATCH /objects/:id - Should partially update an existing object', async () => {
   const partiallyUpdateObject = {name : 'new Name'};
-  const data = await api.partiallyUpdateObject(objectId,partiallyUpdateObject)
-  expect(data.name).toBe('new Name')
+  const data = await api.partiallyUpdateObject(objectId,partiallyUpdateObject);
+  expect(data.name).toBe('new Name');
  });
 
  test('PATCH /objects/:id - Should return 404 for non-existent ID', async () => {
@@ -72,7 +72,7 @@ describe('API Tests', () => {
  test('DELETE /objects/:id - Should delete an object', async () => {
   const data = await api.deleteObject(objectId);
   expect(data).toBeDefined();
- })
+ });
 
  test('DELETE/objects/:id - Should return 404 for non-existent ID', async () => {
   try {

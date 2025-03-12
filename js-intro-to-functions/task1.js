@@ -19,4 +19,4 @@
 //Arrow function
 const getRectangleArea = (width, height) => width*height;
 
-console.log(getRectangleArea(3,4))
+console.log(getRectangleArea(3,4));
